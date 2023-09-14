@@ -1,0 +1,328 @@
+2023-09-14 18:06:39.151 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 92206 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:06:39.153 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:06:39.887 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:06:39.887 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:06:39.930 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:06:39.931 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:06:39.931 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:06:39.956 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:06:40.637 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:06:40.643 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:06:40.644 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:06:40.644 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:06:40.824 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:06:40.824 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1627 ms
+2023-09-14 18:06:40.951 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:06:40.975 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:06:41.054 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:06:41.421 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:06:41.835 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:06:41.841 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:06:41.862 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:06:41.926 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:06:42.042 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:06:42.046 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:06:42.977 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:06:43.222 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:06:43.234 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:06:43.235 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:06:43.242 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:06:43.262 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:06:43.406 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:06:43.484 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:06:43.519 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.956 seconds (JVM running for 5.798)
+2023-09-14 18:07:12.902 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:07:12.903 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:07:12.905 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2023-09-14 18:07:12.911 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:07:12.924 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:07:13.048 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@496b825a), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@7d1aa13e), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@5fbe7de3), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@247fa948), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@319396cf), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@19a8d292), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@35d5e521), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@6cb93f3a), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@4131f98c)]
+2023-09-14 18:07:13.078 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 161 ms
+2023-09-14 18:07:13.086 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:10:44.331 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:10:44.333 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:10:48.299 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 94267 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:10:48.304 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:10:49.038 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:10:49.038 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:10:49.081 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:10:49.082 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:10:49.082 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:10:49.107 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:10:49.788 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:10:49.793 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:10:49.794 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:10:49.794 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:10:49.954 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:10:49.954 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1611 ms
+2023-09-14 18:10:50.075 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:10:50.101 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:10:50.182 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:10:50.547 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:10:50.949 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:10:50.956 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:10:50.969 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:10:51.061 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:10:51.181 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:10:51.185 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:10:52.118 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:10:52.389 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:10:52.404 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:10:52.405 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:10:52.413 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:10:52.439 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:10:52.579 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:10:52.662 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:10:52.703 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.974 seconds (JVM running for 5.801)
+2023-09-14 18:10:58.287 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:10:58.288 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:10:58.289 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 1 ms
+2023-09-14 18:10:58.296 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:10:58.311 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:10:58.440 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@1d842447), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@65148e48), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@7f61bc9a), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@2049a405), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@1c531a57), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@5d74a15b), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@2f035303), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@4207b36a), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@468298df)]
+2023-09-14 18:10:58.472 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 169 ms
+2023-09-14 18:10:58.481 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:11:20.126 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:11:20.131 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:11:20.202 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@18bb07a4), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@67aecfb7), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@110ab449), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@749b5516), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@34ddfa06), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@251f485d), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@6173084b), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@4feed296), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@14b80ca7)]
+2023-09-14 18:11:20.206 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 75 ms
+2023-09-14 18:11:20.206 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:11:50.276 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:11:50.278 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:11:50.340 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@2d0e2188), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@4454d50b), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@47e1e45f), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@1997a325), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@45c9d3fe), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@27d7bac1), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@6fdc6178), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@4b76792d), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@40ab159e)]
+2023-09-14 18:11:50.342 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 64 ms
+2023-09-14 18:11:50.342 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:11:56.489 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:11:56.490 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:11:59.263 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 94846 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:11:59.265 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:12:00.054 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:12:00.054 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:12:00.094 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:12:00.095 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:12:00.095 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:12:00.118 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:12:00.777 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:12:00.782 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:12:00.783 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:12:00.783 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:12:00.943 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:12:00.944 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1609 ms
+2023-09-14 18:12:01.068 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:12:01.093 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:12:01.169 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:12:01.530 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:12:01.893 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:12:01.898 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:12:01.912 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:12:01.979 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:12:02.126 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:12:02.128 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:12:03.032 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:12:03.287 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:12:03.300 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:12:03.300 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:12:03.307 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:12:03.327 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:12:03.459 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:12:03.544 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:12:03.579 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.796 seconds (JVM running for 5.451)
+2023-09-14 18:12:08.705 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:12:08.707 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:12:08.709 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2023-09-14 18:12:08.715 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:12:08.729 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:12:08.849 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@103f9ed9), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@ba43812), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@6b4a05b5), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@2f2fc155), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@430a4b3f), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@69c48fe4), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@521858c4), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@3ec1ebb), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@12aeee4a)]
+2023-09-14 18:12:08.878 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 157 ms
+2023-09-14 18:12:08.888 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:13:48.323 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:13:48.324 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:13:52.128 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 95761 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:13:52.131 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:13:52.813 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:13:52.814 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:13:52.854 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:13:52.855 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:13:52.855 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:13:52.879 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:13:53.523 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:13:53.568 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:13:53.569 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:13:53.570 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:13:53.692 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:13:53.692 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1522 ms
+2023-09-14 18:13:53.807 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:13:53.828 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:13:53.900 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:13:54.261 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:13:54.671 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:13:54.677 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:13:54.697 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:13:54.772 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:13:54.883 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:13:54.884 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:13:55.773 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:13:56.014 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:13:56.026 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:13:56.027 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:13:56.034 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:13:56.053 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:13:56.187 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:13:56.276 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:13:56.308 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.729 seconds (JVM running for 5.58)
+2023-09-14 18:51:56.064 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:51:56.066 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:51:56.068 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2023-09-14 18:51:56.075 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:51:56.093 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:51:56.232 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@6ab8f55), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@3133cba1), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@460da38c), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@6c9fb30d), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@361448ec), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@1955e34c), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@326f3229), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@23f9e8b2), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@373e8709)]
+2023-09-14 18:51:56.269 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 186 ms
+2023-09-14 18:51:56.278 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:51:58.815 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:51:58.816 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:52:02.236 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 14891 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:52:02.240 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:52:02.960 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:52:02.961 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:52:03.001 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:52:03.001 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:52:03.002 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:52:03.027 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:52:03.673 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:52:03.678 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:52:03.679 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:52:03.679 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:52:03.848 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:52:03.849 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1565 ms
+2023-09-14 18:52:03.971 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:52:03.995 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:52:04.071 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:52:04.451 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:52:04.837 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:52:04.843 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:52:04.857 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:52:04.956 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:52:05.074 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:52:05.075 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:52:05.984 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:52:06.221 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:52:06.235 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:52:06.236 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:52:06.245 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:52:06.265 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:52:06.402 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:52:06.477 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:52:06.513 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.869 seconds (JVM running for 5.746)
+2023-09-14 18:52:08.883 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:52:08.885 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:52:08.888 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2023-09-14 18:52:08.895 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:52:08.910 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:52:09.036 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@519a76e0), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@4615a6c8), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@7728e68c), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@6b1c8377), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@6933d582), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@2fb1d8a), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@325797df), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@3ddfadd9), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@4ab7e025)]
+2023-09-14 18:52:09.065 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 163 ms
+2023-09-14 18:52:09.072 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:53:12.452 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:53:12.454 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:53:15.480 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 15550 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:53:15.483 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:53:16.229 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:53:16.229 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:53:16.270 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:53:16.271 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:53:16.271 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:53:16.298 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:53:16.950 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:53:16.955 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:53:16.956 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:53:16.957 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:53:17.110 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:53:17.110 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1584 ms
+2023-09-14 18:53:17.257 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:53:17.285 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:53:17.365 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:53:17.732 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:53:18.125 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:53:18.131 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:53:18.150 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:53:18.220 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:53:18.346 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:53:18.347 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:53:19.258 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:53:19.496 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:53:19.508 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:53:19.509 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:53:19.517 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:53:19.537 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:53:19.673 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:53:19.761 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:53:19.795 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 4.816 seconds (JVM running for 5.449)
+2023-09-14 18:53:22.183 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:53:22.184 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:53:22.186 [http-nio-8080-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 1 ms
+2023-09-14 18:53:22.194 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:53:22.209 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:53:22.335 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@513ab1d3), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@72342b82), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@7f513195), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@6579d1fa), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@61c940af), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@32f21f2f), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@44d95d7d), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@6f84b21d), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@44634b7a)]
+2023-09-14 18:53:22.361 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 160 ms
+2023-09-14 18:53:22.369 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:55:19.234 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:55:19.236 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:55:19.307 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@62fa682), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@4c4ad5d), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@22a49e9b), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@56274e34), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@2d47e9c4), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@cc80774), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@a9e1030), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@66a4a9b9), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@74bf6560)]
+2023-09-14 18:55:19.310 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 74 ms
+2023-09-14 18:55:19.312 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 18:58:53.367 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:58:53.369 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:58:56.262 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Starting SuperCodingApplication using Java 11.0.13 on Lees-MacBook-Air.local with PID 18291 (/Users/lee/Desktop/Super/Spring/super-coding/build/classes/java/main started by lee in /Users/lee/Desktop/Super/Spring/super-coding)
+2023-09-14 18:58:56.269 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - The following 1 profile is active: "dev"
+2023-09-14 18:58:57.013 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:58:57.014 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:58:57.057 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-09-14 18:58:57.058 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-14 18:58:57.058 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-14 18:58:57.085 [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
+2023-09-14 18:58:57.831 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8080 (http)
+2023-09-14 18:58:57.835 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:58:57.836 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2023-09-14 18:58:57.836 [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-14 18:58:57.994 [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:58:57.994 [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1655 ms
+2023-09-14 18:58:58.129 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:58:58.154 [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-14 18:58:58.246 [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-14 18:58:58.588 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:58:58.971 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:58:58.977 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:58:58.988 [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-14 18:58:59.079 [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-14 18:58:59.203 [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-14 18:58:59.204 [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 18:59:00.156 [main] [34mINFO [0;39m [36ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-14 18:59:00.401 [main] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-14 18:59:00.414 [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-14 18:59:00.414 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Context refreshed
+2023-09-14 18:59:00.422 [main] [34mINFO [0;39m [36ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m - Found 1 custom documentation plugin(s)
+2023-09-14 18:59:00.442 [main] [34mINFO [0;39m [36ms.d.s.w.s.ApiListingReferenceScanner[0;39m - Scanning for api listing references
+2023-09-14 18:59:00.582 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: deleteItemByPathIdUsingDELETE_1
+2023-09-14 18:59:00.669 [main] [34mINFO [0;39m [36ms.d.s.w.r.o.CachingOperationNameGenerator[0;39m - Generating unique operation named: findItemsPaginationUsingGET_1
+2023-09-14 18:59:00.709 [main] [34mINFO [0;39m [36mc.g.s.SuperCodingApplication[0;39m - Started SuperCodingApplication in 5.006 seconds (JVM running for 5.819)
+2023-09-14 18:59:04.716 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-14 18:59:04.717 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2023-09-14 18:59:04.719 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2023-09-14 18:59:04.728 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items 요청이 들어왔습니다.
+2023-09-14 18:59:04.743 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 요청이 들어왔습니다.
+2023-09-14 18:59:04.831 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36morg.hibernate.SQL[0;39m - 
+    select
+        itementity0_.id as id1_0_,
+        itementity0_.capacity as capacity2_0_,
+        itementity0_.cpu as cpu3_0_,
+        itementity0_.name as name4_0_,
+        itementity0_.price as price5_0_,
+        itementity0_.stock as stock6_0_,
+        itementity0_.store_id as store_id8_0_,
+        itementity0_.type as type7_0_ 
+    from
+        item itementity0_
+2023-09-14 18:59:04.871 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.c.ElectronicStoreController[0;39m - GET /items 응답: [Item(id=1, name=iPhone 12 Pro Max, type=스마트폰, price=1490000, spec=com.github.supercoding.web.dto.items.Spec@4f2fdc88), Item(id=2, name=Galaxy S21 Ultra, type=스마트폰, price=1690000, spec=com.github.supercoding.web.dto.items.Spec@20607867), Item(id=3, name=Pixel 6 Pro, type=스마트폰, price=1290000, spec=com.github.supercoding.web.dto.items.Spec@419ba3dd), Item(id=4, name=Dell XPS 15, type=노트북, price=2290000, spec=com.github.supercoding.web.dto.items.Spec@51c52f4c), Item(id=5, name=Sony Alpha 7 III, type=미러리스 카메라, price=2590000, spec=com.github.supercoding.web.dto.items.Spec@60bf6260), Item(id=6, name=Xbox Series X, type=게임 콘솔, price=499000, spec=com.github.supercoding.web.dto.items.Spec@433f8d50), Item(id=7, name=iPad Air, type=태블릿, price=849000, spec=com.github.supercoding.web.dto.items.Spec@5fa64ba1), Item(id=8, name=MacBook Pro, type=노트북, price=1790000, spec=com.github.supercoding.web.dto.items.Spec@27e1b056), Item(id=9, name=Sony WH-1000XM4, type=헤드폰, price=349000, spec=com.github.supercoding.web.dto.items.Spec@3cd66aa8)]
+2023-09-14 18:59:04.900 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.w.I.RequestTimeLoggingInterceptor[0;39m - GET /api/items executed in 165 ms
+2023-09-14 18:59:04.907 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.g.s.web.fillters.LoggingFilter[0;39m - GET/api/items가 상태 200 로 응답이 나갑니다.
+2023-09-14 19:05:53.323 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-14 19:05:53.325 [SpringApplicationShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
