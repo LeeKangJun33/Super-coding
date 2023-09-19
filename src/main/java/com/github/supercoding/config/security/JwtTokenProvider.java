@@ -12,6 +12,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.crypto.SecretKey;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Base64;
 import java.util.Date;
@@ -23,8 +24,15 @@ import java.util.List;
 @RequiredArgsConstructor
 public class JwtTokenProvider{
 
-    private final  String secretKey = Base64.getEncoder()
-            .encodeToString("super-coding".getBytes());
+    @Value("${jwt.secret-key-source}")
+    private String secretKeySource;
+    private String secretKey;
+
+    @PostConstruct
+    public void setUp(){
+        secretKey = Base64.getEncoder()
+                .encodeToString(secretKeySource.getBytes());
+    }
 
     private long tokenValidMillisecond = 1000L * 60 * 60; //1시간
 
